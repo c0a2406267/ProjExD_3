@@ -207,7 +207,6 @@ def main():
         for beam in beams:
             if beam is not None:
                 beam.update(screen)
-
         for bomb in bombs:   
             bomb.update(screen)  
         score.update(screen)   
